@@ -1,14 +1,21 @@
 /* Стилизация кнопки */
 .button {
     border-radius: 8px;
-    width: 189px;
     height: 48px;
     cursor: pointer;
+    padding: 15px 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none
 }
 /* primery */
 .button_primery {
@@ -33,6 +40,7 @@
 /* alternate */
 .button_alternate {
     border: 1px solid var(--grey-3);
+    color: var(--grey-4);
 }
 .button_alternate:hover {
     border: 1px solid var(--black);
