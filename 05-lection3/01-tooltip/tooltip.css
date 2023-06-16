@@ -1,14 +1,6 @@
 .tooltip {
-    position:absolute;
-    top: 62px;
-    left: 50%;
-    display:inline-block;
-}
-.tooltip__icon {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;   
+    display: inline-block;
 }
 .tooltip__bubble {
     display: none;
