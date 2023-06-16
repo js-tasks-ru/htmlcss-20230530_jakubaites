@@ -4,10 +4,21 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding: 24px 40px 32px 24px;
-    width: 579px;
     display: flex;
-    flex-flow: row wrap;
-    gap: 16px;
+    flex-flow: column nowrap;
+    gap: 24px;
+    justify-content: center;
+}
+.skeleton__infoBox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.skeleton__info {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4px;
+    justify-content: center;
 }
 .skeleton__avatar {
     background: var(--grey-2);
@@ -18,13 +29,12 @@
 
 .skeleton__text {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    width: 515px;
+    width: 100%;  
     height: 20px;
-    margin-top: 8px;
 }
-.skeleton_name {
-   width: 172px;
+.skeleton__text_name {
+    width: 33%; 
 }
-.skeleton_surname {
-    width: 257px;
+.skeleton__text_surname {
+    width: 50%; 
 }
