@@ -8,7 +8,7 @@
     color: #334D6E; /* нет переменной */
     text-align: center;
     padding: 28px 30px 40px 26px;
-    width: 300px;
+    max-width: 300px;
 }
 .calendar__wrapper {
     padding-bottom: 100%;  /* пересмотрел видео 3 раза, так и не понял как это работает*/
@@ -30,7 +30,7 @@
     margin-bottom: 24px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
 }
 .calendar__item {
     font-family: 'Source Sans 3'; /*Нет в google fonts Source Sans Pro, поэтому подключил Source Sans 3*/
