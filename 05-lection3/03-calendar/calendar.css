@@ -11,7 +11,7 @@
     max-width: 300px;
 }
 .calendar__wrapper {
-    padding-bottom: 100%;  /* пересмотрел видео 3 раза, так и не понял как это работает*/
+    padding-bottom: 100%; 
     position: relative;
 }
 .calendar__inner {
@@ -38,8 +38,9 @@
     font-size: 16px;
     line-height: 20px;
     color: #334D6E;
-    padding-top: calc(50% - 8px); /* сложное решение размещения цифр посередине контейнера?*/
-    
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
 }
 .calendar__item_day {
     font-family: 'Inter';
