@@ -4,6 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/contents/contents.css';
 @import '../../components/footer/footer.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
