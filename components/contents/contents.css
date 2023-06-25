@@ -1,8 +1,12 @@
 .contents {
     background: #F9FAFC;
-    height: 1036px;
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 200px);
+    row-gap: 23px;
+    column-gap: 16px;
+    padding: 22px 16px;
 }
-
 

@@ -32,3 +32,6 @@
 .tooltip__icon:hover + .tooltip__bubble {
     display: block;
 }
+.tooltip__bubble_block {
+    display: block;
+}
