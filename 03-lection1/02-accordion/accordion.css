@@ -18,8 +18,13 @@
 .accordion__item[open] {
     padding-bottom: 32px;
 }
+.accordion__item[open] svg {
+    transform: rotate(180deg);
+}
 .accordion__summary {  
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .accordion__content {
     margin-top: 16px;
