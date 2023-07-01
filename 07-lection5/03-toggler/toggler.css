@@ -20,11 +20,10 @@
     background: #FFFFFF;
     border-radius: 16px;
     position: relative;
-    display: flex;
-    align-items: center
 }
 .toggler__circle {
     position: absolute;
+    top: calc(50% - 12px);
     left: 2px;
     width: 24px;
     height: 24px;
