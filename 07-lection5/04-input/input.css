@@ -1,8 +1,6 @@
 .input {
     display: inline-block;
     position: relative;
-}
-.input__header {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -12,8 +10,12 @@
     text-transform: uppercase;
     color: var(--grey-3);
 }
+.input__wrapper {
+    position: relative;
+}
 .input__text {
     border: 1px solid var(--grey-2);
+    display: block;
     width: 350px;
     height: 56px;  
     font-family: 'Inter';
@@ -30,7 +32,7 @@
     border-color: #4263EB;
 } 
 .input__successImg {
-    display: none;
+    
     position: absolute;
     top: 35px;
     right: 20px;
