@@ -16,7 +16,7 @@
 .input__text {
     border: 1px solid var(--grey-2);
     display: block;
-    width: 350px;
+    min-width: 350px;
     height: 56px;  
     font-family: 'Inter';
     font-style: normal;
@@ -27,25 +27,20 @@
     color: var(--grey-4);
     border-radius: 8px;
 }
+.input__icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 10px;
+    display: none;
+}
 .input__text:focus {
     outline: 0;
     border-color: #4263EB;
 } 
-.input__successImg {
-    
-    position: absolute;
-    top: 35px;
-    right: 20px;
-}
-.input__invalidImg {
-    display: none;
-    position: absolute;
-    top: 35px;
-    right: 20px;
-}
-.input__text_success ~ .input__successImg {
+
+.input_success .input__icon_success {
     display: block;
 }
-.input__text_invalid ~ .input__invalidImg {
+.input_invalid .input__icon_invalid {
     display: block;
 }
