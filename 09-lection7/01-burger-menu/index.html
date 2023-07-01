@@ -7,6 +7,36 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
+       <div class="menu">
+        
+        <div class="menu__header">
+            <button id="burger-menu-close" class="menu__button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 6L18 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>   
+            </button>
+            <svg class="menu__logo" width="110" height="32" viewBox="0 0 110 32">
+                <use href="../../assets/images/sprite.svg#headerLogo"></use>
+            </svg>
+        </div>
 
+        <div class="menu__dark">
+            <p class="menu__darkText">Dark mode</p>
+            <label class="toggler">
+
+                <input type="checkbox" class="toggler__input">
+       
+                <div class="toggler__state">
+                   
+                   <div class="toggler__control">
+                    <div class='toggler__circle'></div>     
+                   </div>
+                   
+                </div>
+       
+            </label>
+        </div>
+       </div>
     </body>
 </html>
