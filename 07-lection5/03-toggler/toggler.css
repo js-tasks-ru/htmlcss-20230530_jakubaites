@@ -21,7 +21,7 @@
     border-radius: 16px;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center
 }
 .toggler__circle {
     position: absolute;
