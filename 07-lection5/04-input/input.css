@@ -1,6 +1,7 @@
 .input {
     display: inline-block;
-    position: relative;
+}
+.input__label {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
